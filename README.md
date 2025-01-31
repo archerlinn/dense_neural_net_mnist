@@ -1,4 +1,4 @@
-# 🧠 MNIST Handwritten Digit Classification
+# 🧠 MNIST DNN Hyperparameters Comparison
 
 This project implements **Deep Neural Networks (DNNs)** to classify handwritten digits from the **MNIST dataset** using TensorFlow/Keras. Three different models with varying architectures, activation functions, optimizers, and hyperparameters are trained and evaluated.
 
