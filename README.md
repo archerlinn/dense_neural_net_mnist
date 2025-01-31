@@ -17,17 +17,19 @@ To run this project locally, install the required dependencies:
 
 ```bash
 pip install tensorflow numpy pandas matplotlib jupyter
-
+```bash
 Clone this repository and navigate to the project folder:
 
 ```bash
 git clone https://github.com/your-username/mnist-dnn.git
 cd mnist-dnn
+```bash
 
 Launch Jupyter Notebook:
 
 ```bash
 jupyter notebook
+```bash
 
 ## 📊 Model Architectures & Results
 | Model   | Hidden Layers | Neurons per Layer   | Activation | Optimizer           | Batch Size | Test Accuracy (%) |
@@ -82,6 +84,7 @@ history3 = model3.fit(
 # Evaluate on Test Set
 _, acc = model3.evaluate(X_test, y_test, verbose=0)
 print(f"Test Accuracy: {acc*100:.2f}%")
+```python
 
 ## 📈 Performance Visualization
 The following code generates a bar chart comparing model performance:
